@@ -4,6 +4,35 @@ document.getElementById('parte4').style.display = 'none'
 document.getElementById('parte5').style.display = 'none'
 document.getElementById('textarea').value = ''
 
+//
+document.querySelector('#nome').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        done1()
+    }
+});
+document.querySelector('#email').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        done2()
+    }
+});
+document.querySelector('#telefone').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        done3()
+    }
+});
+document.querySelector('#assunto').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        done4()
+    }
+});
+document.querySelector('#textarea').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        done5()
+    }
+});
+
+
+
 function done1() {
     let nome = document.getElementById('nome').value
     if (nome.length > 0) {
