@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste de aprendizado</title>
+</head>
+<body id="body" class='cinacabado'>
+    <div id="principal" class="inacabado">
+        <h3 id="final">Preencha o Formulário!</h3>
+        <div id="parte1" class="bagui">
+            <input type="text" placeholder="Seu nome" id="nome">
+            <button onclick="done1()">Avançar</button>
+        </div>
+        <div id="parte2" class="bagui">
+            <input type="email" placeholder="Seu Email" id="email">
+            <button onclick="done2()">Avançar</button>
+        </div>
+        <div id="parte3" class="bagui">
+            <input type="text" placeholder="Seu número com DDD" id="telefone" onkeypress="mascaraFone()" maxlength="16">
+            <button onclick="done3()">Avançar</button>
+        </div>
+        <div id="parte4" class="bagui">
+            <input type="text" placeholder="Assunto do contato" id="assunto">
+            <button onclick="done4()">Avançar</button>
+        </div>
+        <div id="parte5" class="bagui">
+            <textarea placeholder="Insira aqui a sua mensagem!" id="textarea" onkeyup="digitando()" maxlength="200"></textarea>
+            <br>
+            <small><span id="digitando"> 0/200</span></small>
+            <button onclick="done5()">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

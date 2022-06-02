@@ -1,0 +1,90 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cinacabado {
+    background-color: rgb(101, 38, 195);
+    transform: background-color 1s;
+}
+
+.cacabado {
+    background-color: rgb(38, 195, 62);
+}
+
+.inacabado {
+    background-color: rgb(101, 38, 195);
+    box-shadow: 20px -20px 60px 2px rgb(117, 44, 225),
+        -20px 20px 60px 2px rgb(85, 30, 168);
+    transform: background-color 1s;
+}
+
+.acabado {
+    background-color: rgb(38, 195, 62);
+    box-shadow: 20px -20px 60px 2px rgb(65, 225, 44),
+        -20px 20px 60px 2px rgb(30, 168, 32);
+}
+
+#principal {
+    color: white;
+    border-radius: 50px;
+    width: 30%;
+    height: 30%;
+    padding: 30px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 50px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    margin: 5px;
+}
+
+button {
+    border-radius: 50px;
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(111, 42, 215);
+    color: white;
+    transform: background-color 1s;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: rgb(117, 45, 225);
+}
+
+.bagui {
+    display: grid;
+    place-items: center;
+}
+
+textarea {
+    border-radius: 25px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    margin: 5px;
+    text-justify: auto;
+}
