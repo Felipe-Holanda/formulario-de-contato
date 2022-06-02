@@ -1,2 +1,2 @@
-# formulario-de-contato
-Um formulário de contato responsivo, com design moderno.
+# formulario de contato
+Um formulário de contato dinâmico, com design moderno.
